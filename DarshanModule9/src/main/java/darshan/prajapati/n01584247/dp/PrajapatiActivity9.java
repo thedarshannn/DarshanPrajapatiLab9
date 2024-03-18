@@ -3,7 +3,6 @@ package darshan.prajapati.n01584247.dp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -12,13 +11,15 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class PrajapatiActivity9 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class PrajapatiActivity9 extends MainHandler implements NavigationView.OnNavigationItemSelectedListener {
 
+    private DrawerLayout drawerLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +28,7 @@ public class PrajapatiActivity9 extends AppCompatActivity implements NavigationV
         Toolbar toolbar = findViewById(R.id.darToolbar);
         setSupportActionBar(toolbar);
 
-        DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
+        drawerLayout = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.darNavView);
         navigationView.setNavigationItemSelectedListener(this);
 
@@ -79,4 +80,16 @@ public class PrajapatiActivity9 extends AppCompatActivity implements NavigationV
 
         return true;
     }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
+                drawerLayout.closeDrawer(GravityCompat.START);
+                return true; // Consume the event
+            }
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+
 }

@@ -13,4 +13,6 @@
     <string name="dar">Dar</string>
     <string name="Pra">Pra</string>
     <string name="options">Options</string>
+    <string name="mode">Mode</string>
+    <string name="mysharedpref">MySharedPref</string>
 </resources>
