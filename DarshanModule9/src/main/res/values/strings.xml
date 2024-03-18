@@ -15,4 +15,7 @@
     <string name="options">Options</string>
     <string name="mode">Mode</string>
     <string name="mysharedpref">MySharedPref</string>
+    <string name="search_msg">Please enter a search phrase</string>
+    <string name="search">Search</string>
+    <string name="query">query</string>
 </resources>
