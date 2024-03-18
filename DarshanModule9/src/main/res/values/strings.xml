@@ -3,4 +3,11 @@
     <string name="app_name">DarshanLab9</string>
     <string name="app_description">Design Navigation Drawer Application</string>
     <string name="design_by">Design by Darshan Prajapati - n01584247 ©</string>
+    <string name="da1">Da1rshan</string>
+    <string name="pr2">Pr2ajapati</string>
+    <string name="name">Darshan Prajapati</string>
+    <string name="humber_mail">n01584247@humber.ca</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">Open navigation</string>
+    <string name="close_nav">Close navigation</string>
 </resources>
