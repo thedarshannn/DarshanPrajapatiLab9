@@ -1,4 +1,6 @@
 <!--Darshan Prajapati - n01584247-->
 <resources>
     <string name="app_name">DarshanLab9</string>
+    <string name="app_description">Design Navigation Drawer Application</string>
+    <string name="design_by">Design by Darshan Prajapati - n01584247 ©</string>
 </resources>
