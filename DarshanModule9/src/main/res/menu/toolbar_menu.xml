@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/darMenuOptions"
+        android:title="@string/options"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/darToggle"
+                android:title="@string/dar"
+                android:icon="@drawable/toggle"/>
+            <item
+                android:id="@+id/darSearch"
+                android:title="@string/Pra"
+                android:icon="@drawable/search"/>
+        </menu>
+    </item>
+</menu>

@@ -7,4 +7,9 @@
     <color name="colorPrimaryDarkSplash">#1F3F59</color>
     <color name="colorAccentSplash">#4D7495</color>
     <color name="lavender">#8692f7</color>
+    <color name="primary_color">#8692f7</color>
+    <color name="lighter_shade">#aab1fa</color>
+    <color name="darker_shade">#5b63d9</color>
+    <color name="accent_color_1">#b7bbff</color>
+    <color name="accent_color_2">#7179e0</color>
 </resources>
