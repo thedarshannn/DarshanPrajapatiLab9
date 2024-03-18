@@ -1,14 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Darshan1Fragment">
+    tools:context=".PrajapatiActivity9">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!--edit text for adding course name-->
+    <EditText
+        android:id="@+id/darEdtCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/darBtnSave"
+        android:hint="@string/enter_course_name" />
+
+    <!--edit text for adding course description-->
+    <EditText
+        android:id="@+id/darEdtCourseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/darEdtCourseName"
+        android:layout_marginEnd="4dp"
+        android:layout_toStartOf="@id/idBtnAdd"
+        android:hint="@string/enter_course_description" />
+
+    <!--button for adding data to recycler view-->
+    <Button
+        android:id="@+id/idBtnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/darEdtCourseName"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:text="@string/add" />
+
+    <!--button for saving data to shared prefs-->
+    <Button
+        android:id="@+id/darBtnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:text="@string/save" />
+
+    <!--recycler view to display our data-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/darRVCourses"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_below="@id/darEdtCourseDescription" />
 
-</FrameLayout>
+</RelativeLayout>
