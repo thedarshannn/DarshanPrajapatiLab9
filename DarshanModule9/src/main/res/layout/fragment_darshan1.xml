@@ -21,12 +21,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/darEdtCourseName"
         android:layout_marginEnd="4dp"
-        android:layout_toStartOf="@id/idBtnAdd"
+        android:layout_toStartOf="@id/darBtnAdd"
         android:hint="@string/enter_course_description" />
 
     <!--button for adding data to recycler view-->
     <Button
-        android:id="@+id/idBtnAdd"
+        android:id="@+id/darBtnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/darEdtCourseName"
@@ -43,11 +43,23 @@
         android:layout_margin="10dp"
         android:text="@string/save" />
 
+    <Button
+        android:id="@+id/darBtnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/darBtnSave"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/delete" />
+
     <!--recycler view to display our data-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/darRVCourses"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/darEdtCourseDescription" />
+        android:layout_below="@id/darBtnDelete" />
 
 </RelativeLayout>
