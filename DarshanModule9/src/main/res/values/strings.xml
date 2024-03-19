@@ -31,4 +31,12 @@
     <string name="shared_preferences">shared preferences</string>
     <string name="courses">courses</string>
     <string name="saved_msg">Saved ArrayList to shared preferences!</string>
+    <string name="file_name">File Name</string>
+    <string name="read_file">Read File</string>
+    <string name="write_file">Write File</string>
+    <string name="file_contents">File Contents</string>
+    <string name="delete_file">Delete File</string>
+    <string name="create_file">Create File</string>
+    <string name="persistent_file">Persistent File</string>
+    <string name="cache_file">Cache File</string>
 </resources>
