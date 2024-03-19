@@ -1,4 +1,42 @@
 <!--Darshan Prajapati - n01584247-->
 <resources>
     <string name="app_name">DarshanLab9</string>
+    <string name="app_description">Conception d\'Application avec Tiroir de Navigation</string>
+    <string name="design_by">Conçu par Darshan Prajapati - n01584247 ©</string>
+    <string name="da1">Da1rshan</string>
+    <string name="pr2">Pr2ajapati</string>
+    <string name="name">Darshan Prajapati</string>
+    <string name="humber_mail">n01584247@humber.ca</string>
+    <string name="hello_blank_fragment">Bonjour fragment vide</string>
+    <string name="open_nav">Ouvrir la navigation</string>
+    <string name="close_nav">Fermer la navigation</string>
+    <string name="dar">Dar</string>
+    <string name="Pra">Pra</string>
+    <string name="options">Options</string>
+    <string name="mode">Mode</string>
+    <string name="mysharedpref">Mes Préférences Partagées</string>
+    <string name="search_msg">Veuillez entrer une phrase de recherche</string>
+    <string name="search">Rechercher</string>
+    <string name="query">Requête</string>
+    <string name="course_name">Nom du Cours</string>
+    <string name="course_description">Description du Cours</string>
+    <string name="enter_course_name">Entrer le Nom du Cours</string>
+    <string name="enter_course_description">Entrer la Description du Cours</string>
+    <string name="add">Ajouter</string>
+    <string name="save">Enregistrer</string>
+    <string name="delete">Supprimer</string>
+    <string name="clear_field" />
+    <string name="delete_msg">Données supprimées avec succès !</string>
+    <string name="no_data_to_delete">Aucune donnée à supprimer !</string>
+    <string name="shared_preferences">Préférences Partagées</string>
+    <string name="courses">Cours</string>
+    <string name="saved_msg">Liste sauvegardée dans les préférences partagées !</string>
+    <string name="file_name">Nom du Fichier</string>
+    <string name="read_file">Lire le Fichier</string>
+    <string name="write_file">Écrire dans le Fichier</string>
+    <string name="file_contents">Contenu du Fichier</string>
+    <string name="delete_file">Supprimer le Fichier</string>
+    <string name="create_file">Créer un Fichier</string>
+    <string name="persistent_file">Fichier Persistant</string>
+    <string name="cache_file">Fichier Cache</string>
 </resources>
